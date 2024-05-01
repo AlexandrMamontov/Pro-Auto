@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/svg/favicon.png" type="image/x-icon">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="../js/script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container container">
+            <img src="../img/svg/logo.svg" alt="logo" class="header__logo">
+            <nav class="header__nav">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item"><a href="pages/company.html" class="nav__link">Компания</a></li>
+                    <li class="nav__item"><a href="pages/catalog.html" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="pages/services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="pages/info.html" class="nav__link">Информация</a></li>
+                    <li class="nav__item"><a href="pages/contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="header__btn btn btn-reset">Заказать звонок</button>
+            <div class="header__block">
+                <button class="header__search btn-reset"></button>
+                <button class="header__basket btn-reset"></button>
+                <div class="header__count-orders">0</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__box">
+                <div class="swiper-container hero__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hero__slide">
+                            <img src="../img/banners/banner-main.png" alt="banner-main" class="hero__img">
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <img src="../img/banners/banner-services.png" alt="banner-services" class="hero__img">
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <img src="../img/banners/banner-company.png" alt="banner-company" class="hero__img">
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <img src="../img/banners/banner-contacts.png" alt="banner-contacts" class="hero__img">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="hero__container container">
+                    <h1 class="hero__title">
+                        Надёжные качественные аккумуляторы
+                    </h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="navigation">
+            <div class="navigation__container container">
+                <a href="../index.html" class="navigation__link navigation__main">Главная</a>
+                <img src="../img/svg/arrow-navigation.svg" alt="arrow" class="navigation__arrow">
+                <a href="catalog.html" class="navigation__link">Каталог</a>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="info__container container">
+                <h2 class="info__title title">
+                    Каталог
+                </h2>
+                <p class="info__text">
+                    Мы предлагаем лучшие цены на продукцию!
+                </p>
+                <ul class="info__list list-reset">
+                    <li class="info__item">
+                        <img src="../img/png/info-card-battery.png" alt="battery" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Аккумуляторы</h3>
+                            <button class="btn btn-reset info__btn">Сделать заказ</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="../img/png/info-card-oil.png" alt="oil" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автомасла</h3>
+                            <button class="btn btn-reset info__btn">Сделать заказ</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="../img/png/info-card-cosmetic.png" alt="cosmetic" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автокосметика</h3>
+                            <button class="btn btn-reset info__btn">Сделать заказ</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="../img/png/info-card-accessories.png" alt="accessories" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автоаксессуары</h3>
+                            <button class="btn btn-reset info__btn">Сделать заказ</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="../img/png/info-card-chemistry.png" alt="chemistry" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автохимия</h3>
+                            <button class="btn btn-reset info__btn">Сделать заказ</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="../img/png/info-card-consumables.png" alt="consumables" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Расходники</h3>
+                            <button class="btn btn-reset info__btn">Сделать заказ</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__left">
+                <img src="../img/svg/logo.svg" alt="logo" class="footer__logo">
+                <div class="footer__text">© 2019 PRO Auto.</div>
+                <div class="footer__text">Все права защищены.</div>
+            </div>
+            <div class="footer__center">
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Компания</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">О&nbsp;компании</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Лицензии</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Партнёры</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Отзывы клиентов</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Реквизиты</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Каталог</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Аккумуляторы</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Автомасла</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Аксессуары</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Автохимия</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Услуги</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Диагностика аккумулятора</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Приём аккумуляторов</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Информация</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Акции</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Новости</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Статьи</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Вопрос-ответ</a></li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <div class="footer__tel">
+                    <img src="../img/svg/tel.svg" alt="tel" class="footer__svg">
+                    <a href="tel:+73422793613" class="footer__media">+7 (342) 279-36-13</a>
+                </div>
+                <div class="footer__mail">
+                    <img src="../img/svg/mail.svg" alt="mail" class="footer__svg">
+                    <a href="mailto:+73422793613" class="footer__media">proauto59@yandex.ru</a>
+                </div>
+                <button class="btn btn-reset footer__btn">Заказать звонок</button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

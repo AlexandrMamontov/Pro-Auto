@@ -1,0 +1,36 @@
+.error-404 {
+    background-image: url('../img/background/404-background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.error-404__container {
+    padding-top: 154px;
+    padding-bottom: 189px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.error-404__img {
+    margin-bottom: 52px;
+}
+
+.error-404__title {
+    padding-bottom: 0;
+    width: min-content;
+    font-size: 48px;
+    text-align: left;
+    border: none;
+}
+
+.error-404__text {
+    margin: 0;
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+.error-404__btn {
+    margin-top: 52px;
+}

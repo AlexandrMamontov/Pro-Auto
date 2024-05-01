@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/svg/favicon.png" type="image/x-icon">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container container">
+            <img src="img/svg/logo.svg" alt="logo" class="header__logo">
+            <nav class="header__nav">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item"><a href="pages/company.html" class="nav__link">Компания</a></li>
+                    <li class="nav__item"><a href="pages/catalog.html" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="pages/services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="pages/info.html" class="nav__link">Информация</a></li>
+                    <li class="nav__item"><a href="pages/contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="header__btn btn btn-reset">Заказать звонок</button>
+            <div class="header__block">
+                <button class="header__search btn-reset"></button>
+                <button class="header__basket btn-reset"></button>
+                <div class="header__count-orders">0</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__box">
+                <div class="swiper-container hero__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide hero__slide">
+                            <img src="img/banners/banner-main.png" alt="banner-main" class="hero__img">
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <img src="img/banners/banner-services.png" alt="banner-services" class="hero__img">
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <img src="img/banners/banner-company.png" alt="banner-company" class="hero__img">
+                        </div>
+                        <div class="swiper-slide hero__slide">
+                            <img src="img/banners/banner-contacts.png" alt="banner-contacts" class="hero__img">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="hero__container container">
+                    <h1 class="hero__title">
+                        Надёжные качественные аккумуляторы
+                    </h1>
+                    <button class="hero__btn btn btn-reset" onclick="window.location.href='pages/catalog.html'">
+                        Перейти в каталог
+                    </button>
+                </div>
+            </div>
+            <ul class="hero__list list-reset container">
+                <li class="hero__item">
+                    <img src="img/svg/payment.svg" alt="payment" class="hero__svg">
+                    <h3 class="hero__subtitle">
+                        Наличный и безналичный расчёт
+                    </h3>
+                </li>
+                <li class="hero__item">
+                    <img src="img/svg/consultation.svg" alt="consultation" class="hero__svg">
+                    <h3 class="hero__subtitle">
+                        Техническая помощь и консультация
+                    </h3>
+                </li>
+                <li class="hero__item">
+                    <img src="img/svg/quality.svg" alt="quality" class="hero__svg">
+                    <h3 class="hero__subtitle">
+                        Только качественная и проверенная продукция
+                    </h3>
+                </li>
+                <li class="hero__item">
+                    <img src="img/svg/connect.svg" alt="connect" class="hero__svg">
+                    <h3 class="hero__subtitle">
+                        Мы всегда на связи с&nbsp;9:00&nbsp;до&nbsp;18:00!
+                    </h3>
+                </li>
+            </ul>
+        </section>
+
+        <section class="info">
+            <div class="info__container container">
+                <h2 class="info__title title">
+                    Автотовары: аксессуары, расходники и много другое
+                </h2>
+                <p class="info__text">
+                    PROAuto - это специализированный интернет магазин востребованных товаров для автомобилей.
+                </p>
+                <ul class="info__list list-reset">
+                    <li class="info__item">
+                        <img src="img/png/info-card-battery.png" alt="battery" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Аккумуляторы</h3>
+                            <button class="btn btn-reset info__btn">Заказать онлайн</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="img/png/info-card-oil.png" alt="oil" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автомасла</h3>
+                            <button class="btn btn-reset info__btn">Заказать онлайн</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="img/png/info-card-cosmetic.png" alt="cosmetic" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автокосметика</h3>
+                            <button class="btn btn-reset info__btn">Заказать онлайн</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="img/png/info-card-accessories.png" alt="accessories" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автоаксессуары</h3>
+                            <button class="btn btn-reset info__btn">Заказать онлайн</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="img/png/info-card-chemistry.png" alt="chemistry" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Автохимия</h3>
+                            <button class="btn btn-reset info__btn">Заказать онлайн</button>
+                        </div>
+                    </li>
+                    <li class="info__item">
+                        <img src="img/png/info-card-consumables.png" alt="consumables" class="info__background">
+                        <div class="info__box">
+                            <h3 class="info__subtitle">Расходники</h3>
+                            <button class="btn btn-reset info__btn">Заказать онлайн</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="services__container container">
+                <h2 class="services__title title">
+                    Услуги
+                </h2>
+                <p class="services__text">
+                    Менеджеры компании с радостью ответят на ваши вопросы и помогут с выбором продукции.
+                </p>
+                <div class="services__box">
+                    <ul class="services__list list-reset">
+                        <li class="services__item active">
+                            <div class="services__wrapper">
+                                <img src="img/svg/consultation2.svg" alt="consultation" class="services__svg">
+                            </div>
+                            <div class="services__info">
+                                <h3 class="services__subtitle">
+                                    Бесплатная консультация специалиста
+                                </h3>
+                                <p class="services__description">
+                                    Поможем с выбором аккумулятора, моторного масла и аксессуаров для автомобиля под ваши требования.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__wrapper">
+                                <img src="img/svg/trade.svg" alt="trade" class="services__svg">
+                            </div>
+                            <div class="services__info">
+                                <h3 class="services__subtitle">
+                                    Обмен старого аккумулятора на новый
+                                </h3>
+                                <p class="services__description">
+                                    Принесите нам старую АКБ для легкового автомобиля, и мы предоставим Вам скидку на новый аккумулятор!
+                                </p>
+                            </div>
+                        </li>
+                        <li class="services__item">
+                            <div class="services__wrapper">
+                                <img src="img/svg/diagnostics.svg" alt="diagnostics" class="services__svg">
+                            </div>
+                            <div class="services__info">
+                                <h3 class="services__subtitle">
+                                    Бесплатная диагностика аккумулятора
+                                </h3>
+                                <p class="services__description">
+                                    Приезжайте к нам и мы бесплатно проведём диагностику вашего аккумулятора!
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="services__images">
+                        <img src="img/png/services-photo-1.png" alt="photo" class="services__photo active">
+                        <img src="img/png/services-photo-2.png" alt="photo" class="services__photo">
+                        <img src="img/png/services-photo-3.png" alt="photo" class="services__photo">
+                        <img src="img/png/polygon-1.png" alt="polygon1" class="services__polygon1">
+                        <img src="img/png/polygon-2.png" alt="polygon2" class="services__polygon2">
+                        <img src="img/png/polygon-3.png" alt="polygon3" class="services__polygon3">
+                        <img src="img/png/polygon-4.png" alt="polygon4" class="services__polygon4">
+                        <img src="img/png/polygon-5.png" alt="polygon5" class="services__polygon5">
+                    </div>
+                </div>
+                <button class="btn btn-reset services__btn">Задать вопрос</button>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about__container container">
+                <h2 class="about__title title">
+                    О компании
+                </h2>
+                <div class="about__box">
+                    <div class="about__wrapper">
+                        <img src="img/png/about-photo.png" alt="" class="about__photo">
+                    </div>
+                    <div class="about__info">
+                        <p class="about__description">
+                            Машина плохо заводится? Аккумулятор вас подводит? Не проблема! Вам в «PRO Auto»! Мы подберём хороший, надёжный, а главное недорогой аккумулятор именно для вашего авто! С 1997 года сеть магазинов «PRO Auto» занимается продажей автомобильных аккумуляторов, масел, расходных материалов, химией и аксессуаров.
+                        </p>
+                        <button class="btn btn-reset about__btn">Узнать больше</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="news__container container">
+                <h2 class="news__title title">
+                    Новости
+                </h2>
+                <ul class="news__list list-reset">
+                    <li class="news__item">
+                        <img src="img/png/news-1.png" alt="news-1" class="news__img">
+                        <div class="news__info">
+                            <div class="news__date">12 февраля 2020 года</div>
+                            <h3 class="news__subtitle">
+                                У нас новый логотип и новый сайт!
+                            </h3>
+                            <div class="news__arrow"></div>
+                        </div>
+                    </li>
+                    <li class="news__item">
+                        <img src="img/png/news-2.png" alt="news-2" class="news__img">
+                        <div class="news__info">
+                            <div class="news__date">10 февраля 2020 года</div>
+                            <h3 class="news__subtitle">
+                                Обновление линейки аккумуляторов VARTRA
+                            </h3>
+                            <div class="news__arrow"></div>
+                        </div>
+                    </li>
+                    <li class="news__item">
+                        <img src="img/png/news-3.png" alt="news-3" class="news__img">
+                        <div class="news__info">
+                            <div class="news__date">5 февраля 2020 года</div>
+                            <h3 class="news__subtitle">
+                                Бесплатная консультация специалиста теперь в режиме online
+                            </h3>
+                            <div class="news__arrow"></div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-reset news__btn">Читать все новости</button>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="partners__container container">
+                <div class="swiper-container partners__slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide partners__slide">
+                            <img src="img/png/partners-1.png" alt="partners-1" class="partners__img">
+                        </div>
+                        <div class="swiper-slide partners__slide">
+                            <img src="img/png/partners-2.png" alt="partners-1" class="partners__img">
+                        </div>
+                        <div class="swiper-slide partners__slide">
+                            <img src="img/png/partners-3.png" alt="partners-1" class="partners__img">
+                        </div>
+                        <div class="swiper-slide partners__slide">
+                            <img src="img/png/partners-4.png" alt="partners-1" class="partners__img">
+                        </div>
+                        <div class="swiper-slide partners__slide">
+                            <img src="img/png/partners-5.png" alt="partners-1" class="partners__img">
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__left">
+                <img src="img/svg/logo.svg" alt="logo" class="footer__logo">
+                <div class="footer__text">© 2019 PRO Auto.</div>
+                <div class="footer__text">Все права защищены.</div>
+            </div>
+            <div class="footer__center">
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Компания</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">О&nbsp;компании</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Лицензии</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Партнёры</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Отзывы клиентов</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Реквизиты</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Каталог</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Аккумуляторы</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Автомасла</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Аксессуары</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Автохимия</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Услуги</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Диагностика аккумулятора</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Приём аккумуляторов</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item"><a href="#" class="footer__link">Информация</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Акции</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Новости</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Статьи</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Вопрос-ответ</a></li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <div class="footer__tel">
+                    <img src="img/svg/tel.svg" alt="tel" class="footer__svg">
+                    <a href="tel:+73422793613" class="footer__media">+7 (342) 279-36-13</a>
+                </div>
+                <div class="footer__mail">
+                    <img src="img/svg/mail.svg" alt="mail" class="footer__svg">
+                    <a href="mailto:+73422793613" class="footer__media">proauto59@yandex.ru</a>
+                </div>
+                <button class="btn btn-reset footer__btn">Заказать звонок</button>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

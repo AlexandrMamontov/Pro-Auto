@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'Geometria-Bold';
+	src: local('Geometria-Bold'),
+		url('../fonts/Geometria-Bold.woff2') format('woff2'),
+		url('../fonts/Geometria-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Geometria-Medium';
+	src: local('Geometria-Medium'),
+		url('../fonts/Geometria-Medium.woff2') format('woff2'),
+		url('../fonts/Geometria-Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+:root {
+    --color-white: #FFFFFF;
+    --color-gray: #EDEDED;
+    --color-black: #000000;
+    --color-black-1: #0E0E0E;
+    --color-black-2: #1D1D1D;
+    --color-red-dark: #D42E12;
+    --color-red-light: #C53720;
+    --color-green: #3CC051;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Geometria-Medium';
+    line-height: normal;
+    color: var(--color-black-2);
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 35px;
+}
+
+.btn {
+    padding: 12px 20px;
+    font-family: 'Geometria-Bold';
+    font-size: 12px;
+    text-align: center;
+    color: var(--color-white);
+    text-transform: uppercase;
+    border: 4px solid var(--color-red-dark);
+    transition: border-color .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.btn:hover {
+    border-color: var(--color-white);
+    background: var(--color-red-light);
+    transition: border-color .3s ease-in-out, background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 44px;
+    padding-bottom: 8px;
+    font-family: 'Geometria-Bold';
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-white);
+    border-bottom: 4px solid var(--color-red-light);
+}
